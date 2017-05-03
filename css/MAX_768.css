@@ -1,0 +1,96 @@
+@media screen and (max-width: 768px) {
+  .gallery-001 .container {
+    padding-left: 0;
+  }
+  .menu-001 .row>div {
+    padding-right: 0;
+    float: none;
+    margin: 0 auto;
+  }
+  .menu-001 .navbar {
+    margin-left: 27px;
+    margin-right: 6px;
+  }
+  .menu-001 .navbar-header {
+    background-color: #25375A;
+  }
+  .header-001 .header_contacts {
+    margin-right: 298px;
+  }
+  .menu-001 .navbar-toggle {
+    padding: 6px 8px;
+    border: 2px solid white;
+    margin-top: 10px;
+    margin-right: 11px;
+  }
+  .menu_background {
+    height: 50px;
+  }
+  .menu-001 .navbar-toggle .icon-bar {
+    background-color: white;
+  }
+  .menu-001 .navbar-toggle:hover {
+    background-color: #25375A;
+    border-color: #68B5E9;
+  }
+  .menu-001 .navbar-toggle:focus {
+    background-color: #25375A;
+  }
+  .menu-001 .navbar-brand img {
+    margin: 5px 25px;
+  }
+  .gallery-001 .gallery_title {
+    margin-left: 223px;
+  }
+  .gallery-001 .row {
+    margin-left: 219px;
+    margin-right: 199px;
+  }
+  .gallery-001 .container .row .column_1 .thumbnail:first-child img {
+    height: 350px;
+  }
+  .gallery-001 .container .row .column_1 .thumbnail:last-child img {
+    height: 171px;
+  }
+  .gallery-001 .container .row .column_2 .thumbnail:first-child img,
+  .gallery-001 .container .row .column_2 .thumbnail:nth-child(2) img {
+    height: 171px;
+    width: 100%;
+  }
+  .gallery-001 .container .row .column_2 {
+    padding-right: 4px;
+  }
+  .gallery-001 .carousel .carousel-inner .item img {
+    width: 319px;
+    height: 175px;
+  }
+  .gallery-001 .thumbnail {
+    margin-bottom: 20px;
+  }
+  .gallery-001 .container .row #carousel-example-generic .carousel-control {
+    padding-top: 78px;
+    font-size: 16px;
+    height: 175px;
+  }
+  .gallery-001 .container .row .column_2 #carousel-example-generic {
+    margin-bottom: 20px;
+  }
+  .gallery-001 .container .row .column_3 {
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+  .gallery-001 .container .row button {
+    margin-top: 0;
+    margin-right: 4px;
+  }
+
+
+
+
+
+
+
+
+
+
+}

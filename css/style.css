@@ -1,0 +1,12 @@
+.container {
+  padding: 0;
+}
+.container-fluid>.navbar-collapse {
+  margin-right: -30px;
+}
+.row {
+  margin: 0;
+}
+body {
+  overflow-x: hidden;
+}

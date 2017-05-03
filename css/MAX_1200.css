@@ -1,0 +1,54 @@
+@media screen and (max-width: 1200px) {
+
+  .header-001 .row {
+    right: 61px;
+  }
+  .header-001 .header_contacts .glyphicon {
+    margin-left: 38px;
+  }
+  .menu-001 .navbar {
+    margin-left: 21px;
+    margin-right: -8px;
+  }
+  .menu-001 .container-fluid {
+    border-bottom-width: 3px;
+  }
+  .menu-001 .navbar-brand img {
+      margin: 10px 16px;
+  }
+  .gallery-001 .gallery_title {
+    margin-left: 3px;
+  }
+  .gallery-001 .container .row .column_3 {
+    padding-left: 2px;
+    padding-right: 7px;
+  }
+  .gallery-001 .container .row .column_1 {
+    padding-right: 4px;
+  }
+  .carousel-indicators {
+    bottom: 41px;
+  }
+  .gallery-001 .container .row #carousel-example-generic .carousel-control {
+    padding-top: 72px;
+    height: 164px;
+  }
+  .gallery-001 .carousel .carousel-inner .item img {
+    height: 164px;
+  }
+  .gallery-001 .container .row button {
+    margin-top: 9px;
+  }
+  .navbar-nav>li>.dropdown-menu {
+    margin: 0 50%;
+  }
+  .menu-001 .dropdown-menu::before {
+    margin: 0 calc(50% + 20px);
+    top: -9px;
+  }
+
+
+
+
+
+}
