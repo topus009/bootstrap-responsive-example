@@ -19,9 +19,7 @@
 .gallery-001 .thumbnail>img {
   margin: 0;
 }
-.gallery-001 .container .row .column_1,
-.gallery-001 .container .row .column_2,
-.gallery-001 .container .row .column_3 {
+.gallery-001 .container .row .column_1, .gallery-001 .container .row .column_2, .gallery-001 .container .row .column_3 {
   padding: 0;
 }
 .gallery-001 .container .row .column_1 {
@@ -45,6 +43,7 @@
 }
 .gallery-001 .container .row button {
   background-image: -webkit-linear-gradient(to top, #0d47a1, #1976d2);
+  background-image: -webkit-linear-gradient(bottom, #0d47a1, #1976d2);
   background-image: linear-gradient(to top, #0d47a1, #1976d2);
   box-shadow: 0px 1px 1px 0 rgba(3, 3, 3, 0.45);
   margin-right: 8px;

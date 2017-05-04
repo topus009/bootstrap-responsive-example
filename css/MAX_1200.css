@@ -1,5 +1,4 @@
 @media screen and (max-width: 1200px) {
-
   .header-001 .row {
     right: 61px;
   }
@@ -14,7 +13,7 @@
     border-bottom-width: 3px;
   }
   .menu-001 .navbar-brand img {
-      margin: 10px 16px;
+    margin: 10px 16px;
   }
   .gallery-001 .gallery_title {
     margin-left: 3px;
@@ -46,9 +45,4 @@
     margin: 0 calc(50% + 20px);
     top: -9px;
   }
-
-
-
-
-
 }
