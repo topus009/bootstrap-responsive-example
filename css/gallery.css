@@ -15,6 +15,7 @@
   margin-bottom: 10px;
   border: none;
   border-radius: 0;
+  position: relative;
 }
 .gallery-001 .thumbnail>img {
   margin: 0;
@@ -58,4 +59,30 @@
 }
 .carousel-indicators {
   bottom: 4px;
+}
+.glyphicon-search {
+  position: absolute;
+  color: #ffd400;
+  font-size: 30px;
+  padding: 0 calc(50% - 15px);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  opacity: 0;
+}
+.glyphicon-search:hover {
+  opacity: 1;
+  filter: drop-shadow(1px 1px 6px black);
+  -moz-filter: drop-shadow(1px 1px 6px black);
+  -webkit-filter: drop-shadow(1px 1px 6px black);
+  -o-filter: drop-shadow(1px 1px 6px black);
+  -ms-filter: drop-shadow(1px 1px 6px black);
+  filter: drop-shadow(1px 1px 6px black);  
+}
+.gallery-001 .thumbnail:hover {
+  -moz-filter: grayscale(0.4) hue-rotate(360deg) opacity(0.4) saturate(2.8) sepia(0.3);
+  -webkit-filter: grayscale(0.4) hue-rotate(360deg) opacity(0.4) saturate(2.8) sepia(0.3);
+  -o-filter: grayscale(0.4) hue-rotate(360deg) opacity(0.4) saturate(2.8) sepia(0.3);
+  -ms-filter: grayscale(0.4) hue-rotate(360deg) opacity(0.4) saturate(2.8) sepia(0.3);
+  filter: grayscale(0.4) hue-rotate(360deg) opacity(0.4) saturate(2.8) sepia(0.3);
 }
