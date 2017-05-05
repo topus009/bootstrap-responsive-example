@@ -1,0 +1,21 @@
+@media screen and (max-width: 547px) {
+  .menu-001 .navbar-brand {
+    margin-left: -1px;
+  }
+  .menu-001 .navbar-nav {
+    margin: 0;
+  }
+  .menu-001 .container-fluid {
+    padding-right: 14px;
+    padding-left: 15px;
+  }
+  .menu-001 .navbar-brand img {
+    margin: 9px 0;
+    width: 150px;
+  }
+  .menu-001 .container-fluid>.navbar-collapse {
+    margin-right: -14px;
+    margin-left: -15px;
+    padding: 0;
+}
+}

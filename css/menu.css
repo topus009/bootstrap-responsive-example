@@ -1,13 +1,13 @@
 .menu-001 .navbar-default .navbar-collapse, .menu-001 .navbar-collapse {
-  background-color: #25375A;
   height: 60px;
+  background-color: #25375A;
 }
 .menu_background {
-  background-color: #25375A;
   position: absolute;
+  left: 0;
   width: 100vw;
   height: 60px;
-  left: 0;
+  background-color: #25375A;
 }
 .menu-001 .navbar-brand img {
   margin: 10px 15px;
@@ -19,13 +19,13 @@
 .menu-001 .container-fluid {
   margin: 0;
   padding: 0;
-  border-bottom: 2px solid #d8354c;
   padding-right: 14px;
+  border-bottom: 2px solid #d8354c;
 }
 .menu-001 .navbar {
+  margin-right: -7px;
   margin-left: 22px;
   border: none;
-  margin-right: -7px;
 }
 .menu-001 .navbar-right {
   font-size: 16px;
@@ -36,9 +36,9 @@
   padding-left: 0;
 }
 .menu-001 .navbar-default .navbar-nav>li>a {
-  color: white;
   height: 60px;
   padding-top: 18px;
+  color: white;
 }
 .menu-001 .navbar-default .navbar-nav>li>a:hover {
   color: #64b5f6;
@@ -47,36 +47,36 @@
   height: 60px;
 }
 .menu-001 .dropdown-menu {
-  background-color: #19294E;
-  border: none;
-  padding: 12px 0;
-  border-top: 2px solid #2964bc;
   right: -50px;
+  padding: 12px 0;
+  border: none;
+  border-top: 2px solid #2964bc;
+  background-color: #19294E;
 }
 .menu-001 .dropdown-menu::before {
-  content: "";
+  position: absolute;
   width: 0;
   height: 0;
-  border-left: 6px solid transparent;
-  border-right: 6px solid transparent;
-  border-bottom: 7px solid #2964bc;
-  position: absolute;
   margin: 0 calc(50% - 5px);
   margin-top: -21px;
+  border-right: 6px solid transparent;
+  border-bottom: 7px solid #2964bc;
+  border-left: 6px solid transparent;
+  content: "";
 }
 .menu-001 .navbar-default .navbar-nav>.open>a, .menu-001 .navbar-default .navbar-nav>.open>a:focus, .menu-001 .navbar-default .navbar-nav>.open>a:hover {
   background-color: #25375A;
   color: #64b5f6;
 }
 .menu-001 .dropdown-menu li a {
-  color: white;
-  line-height: 2;
   padding: 0;
+  padding-right: 19px;
+  padding-left: 19px;
+  background-color: #19294E;
+  color: white;
   font-size: 15px;
   letter-spacing: 0.4px;
-  padding-left: 19px;
-  padding-right: 19px;
-  background-color: #19294E;
+  line-height: 2;
 }
 .menu-001 .dropdown-menu li a:hover {
   color: #64b5f6;

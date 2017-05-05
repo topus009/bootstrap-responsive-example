@@ -1,25 +1,25 @@
 .header-001 {
-  height: 124px;
   position: relative;
+  height: 124px;
   letter-spacing: 0.4px;
 }
 .header-001 .row {
   position: absolute;
-  bottom: 8px;
   right: 10px;
+  bottom: 8px;
 }
 .header-001 .row>div {
   padding: 0;
 }
 .header-001 .container .row div .header_contacts {
   height: 14px;
+  color: #010101;
   font-size: 14px;
   font-weight: 300;
-  color: #010101;
 }
 .header-001 .header_contacts .glyphicon {
-  color: #d8354c;
   margin-left: 25px;
+  color: #d8354c;
 }
 .header-001 .header_contacts .glyphicon-map-marker {
   font-size: 11px;

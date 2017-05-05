@@ -1,0 +1,9 @@
+@media screen and (max-width: 592px) {
+  .menu-001 .navbar {
+    margin: 0 auto;
+  }
+  .gallery-001 .row {
+    margin-left: 140px;
+    margin-right: 140px;
+  }
+}
